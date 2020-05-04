@@ -1,0 +1,2 @@
+rootProject.name='SurfcheckNavigation'
+include ':app'
