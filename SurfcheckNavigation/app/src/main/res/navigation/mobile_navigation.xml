@@ -3,19 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/beach_view">
+    app:startDestination="@+id/beach_lennox">
 
     <fragment
-        android:id="@+id/beach_view"
+        android:id="@+id/beach_lennox"
         android:name="site.thomasberghuis.surfcheck.BeachFragment"
         android:label="Beach View"
         tools:layout="@layout/fragment_beach">
-
-
         <argument
             android:name="beach"
-            app:argType="string"
-            android:defaultValue="lennox" />
+            android:defaultValue="lennox"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_byron_pass"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Beach View"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="byron_pass"
+            app:argType="string" />
     </fragment>
 
 </navigation>

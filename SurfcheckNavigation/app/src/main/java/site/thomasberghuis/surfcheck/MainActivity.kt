@@ -33,17 +33,13 @@ class MainActivity : AppCompatActivity() {
 
         val drawerLayout: DrawerLayout? = findViewById(R.id.drawer_layout)
         appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.beach_view),
+            setOf(R.id.beach_lennox, R.id.beach_byron_pass),
             drawerLayout
         )
 
         setupActionBar(navController, appBarConfiguration)
         setupNavigationMenu(navController)
-
-//        setupNavigationView()
     }
-
-
 
 
     private fun setupNavigationMenu(navController: NavController) {
