@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/beach_lennox"
         android:name="site.thomasberghuis.surfcheck.BeachFragment"
-        android:label="Beach View"
+        android:label="Lennox"
         tools:layout="@layout/fragment_beach">
         <argument
             android:name="beach"
@@ -19,7 +19,7 @@
     <fragment
         android:id="@+id/beach_byron_pass"
         android:name="site.thomasberghuis.surfcheck.BeachFragment"
-        android:label="Beach View"
+        android:label="The Pass"
         tools:layout="@layout/fragment_beach">
         <argument
             android:name="beach"
