@@ -1,13 +1,26 @@
 buildscript {
-    ext.kotlin_version = '1.3.72'
+
+    ext {
+        kotlin_version = '1.3.72'
+
+
+        nav_version = "2.2.2"
+
+    }
+
+
     repositories {
         google()
         jcenter()
-       
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+
     }
 }
 
@@ -15,7 +28,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+
     }
 }
 

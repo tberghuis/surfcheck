@@ -12,6 +12,10 @@
         tools:layout="@layout/fragment_beach">
 
 
+        <argument
+            android:name="beach"
+            app:argType="string"
+            android:defaultValue="lennox" />
     </fragment>
 
 </navigation>
