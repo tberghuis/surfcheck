@@ -1,7 +1,12 @@
 
-follow helloworld exoplayer tutorial
-finish reading all docs
-fragment docs print
-next task
+implement vert swipe to change beaches
 
-read navigation docs
+custom navigation, have a global beach -> url hashmap that menu is derived from
+
+currently to add a beach update the following:
+    appbar config in mainactivity
+    navigation xml
+    menu drawer xml
+    fragment get beach url
+
+
