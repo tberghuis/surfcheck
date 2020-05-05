@@ -74,6 +74,9 @@ class BeachFragment : Fragment() {
         return when (beach) {
             "lennox" -> "https://cams.cdn-surfline.com/cdn-au/au-lennoxhead/playlist.m3u8"
             "byron_pass" -> "https://cams.cdn-surfline.com/cdn-au/au-thepassoverview/playlist.m3u8"
+            "shelly" -> "https://cams.cdn-surfline.com/cdn-au/au-ballinashellybeach/playlist.m3u8"
+
+
             else -> { // Note the block
                 "THIS is wrong"
             }

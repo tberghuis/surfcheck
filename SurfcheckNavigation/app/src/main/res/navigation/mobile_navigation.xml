@@ -27,4 +27,17 @@
             app:argType="string" />
     </fragment>
 
+
+    <fragment
+        android:id="@+id/beach_shelly"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Shelly"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="shelly"
+            app:argType="string" />
+    </fragment>
+
+
 </navigation>

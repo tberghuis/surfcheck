@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         val drawerLayout: DrawerLayout? = findViewById(R.id.drawer_layout)
         appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.beach_lennox, R.id.beach_byron_pass),
+            setOf(R.id.beach_lennox, R.id.beach_byron_pass, R.id.beach_shelly),
             drawerLayout
         )
 

@@ -4,16 +4,22 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/beach_lennox"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Lennox" />
+
 
         <item
             android:id="@+id/beach_byron_pass"
             android:icon="@drawable/ic_menu_camera"
             android:title="Byron Pass" />
 
+        <item
+            android:id="@+id/beach_lennox"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Lennox" />
 
+
+        <item
+            android:id="@+id/beach_shelly"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Shelly" />
     </group>
 </menu>
