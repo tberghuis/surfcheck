@@ -75,7 +75,19 @@ class BeachFragment : Fragment() {
             "lennox" -> "https://cams.cdn-surfline.com/cdn-au/au-lennoxhead/playlist.m3u8"
             "byron_pass" -> "https://cams.cdn-surfline.com/cdn-au/au-thepassoverview/playlist.m3u8"
             "shelly" -> "https://cams.cdn-surfline.com/cdn-au/au-ballinashellybeach/playlist.m3u8"
-
+            "seaway_jetty" -> "https://cams.cdn-surfline.com/cdn-au/au-seaway/playlist.m3u8"
+            "main_beach" -> "https://cams.cdn-surfline.com/cdn-au/au-mainbeach/playlist.m3u8"
+            "narrowneck" -> "https://cams.cdn-surfline.com/cdn-au/au-narrowneck/playlist.m3u8"
+            "artreef" -> "https://cams.cdn-surfline.com/cdn-au/au-artreef/playlist.m3u8"
+            "surfersparadise" -> "https://cams.cdn-surfline.com/cdn-au/au-surfersparadise/playlist.m3u8"
+            "broadbeach" -> "https://cams.cdn-surfline.com/cdn-au/au-kurrawa/playlist.m3u8"
+            "burleigh" -> "https://cams.cdn-surfline.com/cdn-au/au-burleighheads/playlist.m3u8"
+            "currumbin_alley" -> "https://cams.cdn-surfline.com/cdn-au/au-currumbinalleyoverview/playlist.m3u8"
+            "tugun" -> "https://cams.cdn-surfline.com/cdn-au/au-tugun/playlist.m3u8"
+            "kirra" -> "https://cams.cdn-surfline.com/cdn-au/au-kirranorth/playlist.m3u8"
+            "rainbow" -> "https://cams.cdn-surfline.com/cdn-au/au-rainbowbay/playlist.m3u8"
+            "snapper" -> "https://cams.cdn-surfline.com/cdn-au/au-snapper/playlist.m3u8"
+            "duranbah" -> "https://cams.cdn-surfline.com/cdn-au/au-duranbah/playlist.m3u8"
 
             else -> { // Note the block
                 "THIS is wrong"

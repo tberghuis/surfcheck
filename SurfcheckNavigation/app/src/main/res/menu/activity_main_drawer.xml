@@ -7,6 +7,71 @@
 
 
         <item
+            android:id="@+id/beach_seaway_jetty"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Seaway Jetty" />
+
+        <item
+            android:id="@+id/beach_main_beach"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Main Beach" />
+
+        <item
+            android:id="@+id/beach_narrowneck"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Narrowneck" />
+
+        <item
+            android:id="@+id/beach_artreef"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Artificial Reef" />
+
+        <item
+            android:id="@+id/beach_surfersparadise"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Surfers Paradise" />
+
+        <item
+            android:id="@+id/beach_broadbeach"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Broadbeach" />
+
+        <item
+            android:id="@+id/beach_burleigh"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Burleigh Heads" />
+
+        <item
+            android:id="@+id/beach_currumbin_alley"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Currumbin Alley" />
+
+        <item
+            android:id="@+id/beach_tugun"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Tugun" />
+
+        <item
+            android:id="@+id/beach_kirra"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Kirra" />
+
+        <item
+            android:id="@+id/beach_rainbow"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Rainbow" />
+
+        <item
+            android:id="@+id/beach_snapper"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Snapper" />
+
+        <item
+            android:id="@+id/beach_duranbah"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Duranbah" />
+
+        <item
             android:id="@+id/beach_byron_pass"
             android:icon="@drawable/ic_menu_camera"
             android:title="Byron Pass" />

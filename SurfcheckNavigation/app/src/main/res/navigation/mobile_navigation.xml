@@ -40,4 +40,147 @@
     </fragment>
 
 
+    <fragment
+        android:id="@+id/beach_seaway_jetty"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Seaway Jetty"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="seaway_jetty"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_main_beach"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Main Beach"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="main_beach"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_narrowneck"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Narrowneck"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="narrowneck"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_artreef"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Artificial Reef"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="artreef"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_surfersparadise"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Surfers Paradise"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="surfersparadise"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_broadbeach"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Broadbeach"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="broadbeach"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_burleigh"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Burleigh Heads"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="burleigh"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_currumbin_alley"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Currumbin Alley"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="currumbin_alley"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_tugun"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Tugun"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="tugun"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_kirra"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Kirra"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="kirra"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_rainbow"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Rainbow"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="rainbow"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_snapper"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Snapper"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="snapper"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/beach_duranbah"
+        android:name="site.thomasberghuis.surfcheck.BeachFragment"
+        android:label="Duranbah"
+        tools:layout="@layout/fragment_beach">
+        <argument
+            android:name="beach"
+            android:defaultValue="duranbah"
+            app:argType="string" />
+    </fragment>
+
 </navigation>
